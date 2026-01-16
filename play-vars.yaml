@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    COURSE: ansible
+    COURSE: Ansible
     DURATION: 10HRS
     TRAINER: Sivaramakrishna
   tasks:
