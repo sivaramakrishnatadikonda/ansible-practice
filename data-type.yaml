@@ -1,5 +1,5 @@
 - name: ansible datatype
-  hosts: ;ocal
+  hosts: local
   connection: local
   vars:
     DURATION: 12o # This is number
