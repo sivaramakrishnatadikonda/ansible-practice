@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    GREETING: "Hello from PLAY" # 5th place
+    GREETING: "Hello from PLAY" # 5th place global variable
   vars_files: #3rd place
     - COURSE.yaml
   vars_prompt: # 4th place
@@ -11,8 +11,7 @@
       private: true
   tasks:
   - name: print the greeting
-    vars: # 2nd place
+    vars: # 2nd place local variable
       GREETING: "Hello from TASK"
     ansible.builtin.debug:
       msg: " {{ GREETING }}"
-      

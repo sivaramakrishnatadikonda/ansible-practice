@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    DURATION: 120         # This is number
+    DURATION: 120         # This is number or integer
     COURSE: "DevSecOps with AWS" #string
     IS_LIVE: true #boolean
     TOOLS: #list
